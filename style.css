@@ -1,0 +1,73 @@
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+body {    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(36, 63%, 79%);
+
+}
+
+
+.Frame-Work {
+    width: 1440px;
+    background-color: aliceblue;    
+    display: grid;
+    grid-template-rows: repeat(6, auto);
+    grid-template-columns: 1fr;    
+    gap: 50px;  
+    border-radius: 10px;
+
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+
+}
+.image-wrapper {
+    display: flex;
+    justify-content: center; 
+} 
+
+.items {
+    padding-left: 70px;
+    padding-right: 70px;
+
+}
+
+.pink {
+    background-color: hsl(332, 55%, 73%);
+    margin-left: 70px;
+    margin-right: 70px;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+li, p {
+    font-size: 25px;
+    padding: 5px;
+}
+
+.table {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    padding-left: 40px;
+}
+
+ul li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+ol li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+
+
+
